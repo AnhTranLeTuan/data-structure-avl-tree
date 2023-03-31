@@ -2,6 +2,7 @@
 
 ## Description
 Experiment with concepts of AVL tree, or the self-balancing binary search tree in specific. In this project, we can see how:
+* Create the private Node class that include the field for value, two Node fields for child nodes, the field for the current node's height value, and the last field for the balance factor value of the current node
 * Create attributes of the AVL tree
 * Implement multiple functions to achieve self-balancing
   * Create the function to calculate the height of a specific node as a foundation to calculate the balance factor (balance factor is the number used to check if the subtree is left heavy (factor > 1), right heavy (factor < -1), or balanced (factor >= -1 && factor <= 1))
